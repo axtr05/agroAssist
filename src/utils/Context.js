@@ -1,5 +1,5 @@
 import { createContext, useEffect, useRef, useState } from "react";
-import { sendMsgToAI } from "./OpenAi";
+import { sendMsgToAI } from "./Gemini";
 export const ContextApp = createContext();
 
 const AppContext = ({ children }) => {
