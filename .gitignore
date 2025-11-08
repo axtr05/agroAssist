@@ -10,18 +10,6 @@ Thumbs.db
 *.lock
 *.pid
 *.seed
-*.sublime-workspace
-*.sublime-project
-
-# Environment files (NEVER commit real credentials)
-.env
-.env.*
-!.env.example
-
-# Local configuration files
-.vscode/
-.idea/
-*.iml
 
 # ================================
 # ⚙️ Node.js / Backend
@@ -32,18 +20,19 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
-yarn.lock
-pnpm-lock.yaml
+
+# Environment files
+.env
+.env.*
 
 # Build / dist output
 dist/
 build/
-tmp/
-temp/
 .cache/
 logs/
 coverage/
+tmp/
+temp/
 lib/
 out/
 
@@ -58,65 +47,10 @@ frontend/.next/
 frontend/.turbo/
 frontend/.parcel-cache/
 frontend/.vite/
-frontend/.nuxt/
-
-# React testing snapshots
-frontend/src/**/*.test.js
-frontend/src/**/*.test.ts
-frontend/src/**/*.test.tsx
 
 # ================================
-# 🧠 Git & LFS
+# 🧩 System / IDE
 # ================================
-# Git metadata
-.gitignore
-.gitattributes
-# Optional: exclude local branches if needed
-# refs/
-
-# ================================
-# 🧪 Logs & Reports
-# ================================
-*.log
-logs/
-*.out
-*.err
-*.csv
-*.dat
-
-# ================================
-# 📦 Miscellaneous
-# ================================
-*.zip
-*.tar
-*.gz
-*.7z
-*.rar
-*.bak
-*.orig
-
-# ================================
-# 🖼️ Design / Raw Media
-# ================================
-*.psd
-*.ai
-*.xcf
-*.sketch
-*.blend
-
-# ================================
-# 🧩 System / OS Files
-# ================================
-ehthumbs.db
-desktop.ini
-Icon?
-__MACOSX/
-
-# ================================
-# 🚫 Project-Specific (agroAssist)
-# ================================
-frontend/node_modules/.cache/
-frontend/.cache/
-frontend/public/temp/
-backend/uploads/
-backend/logs/
+.vscode/
+.idea/
+*.iml
