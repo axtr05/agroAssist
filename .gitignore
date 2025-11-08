@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build / cache
+dist/
+build/
+.out/
+.next/
+.vite/
+.cache/
+**/.cache/
+coverage/
+tmp/
+*.log
+
+# Env
+.env
+.env.*
